@@ -3,7 +3,7 @@ def prime?(integer)
     return false
   else
     (2..integer-1).to_a.all? do |possible|
-      integer % possible ! = 0 
+      integer % possible != 0 
     end
   end
 end
